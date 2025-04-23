@@ -110,6 +110,264 @@ depend:
 	cd /home/matthew/chatChatServer/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/chatChatServer.dir/rule:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/chatChatServer.dir/rule
+.PHONY : src/CMakeFiles/chatChatServer.dir/rule
+
+# Convenience name for target.
+chatChatServer: src/CMakeFiles/chatChatServer.dir/rule
+
+.PHONY : chatChatServer
+
+# fast build rule for target.
+chatChatServer/fast:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/build
+.PHONY : chatChatServer/fast
+
+DatabaseOps.o: DatabaseOps.cpp.o
+
+.PHONY : DatabaseOps.o
+
+# target to build an object file
+DatabaseOps.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/DatabaseOps.cpp.o
+.PHONY : DatabaseOps.cpp.o
+
+DatabaseOps.i: DatabaseOps.cpp.i
+
+.PHONY : DatabaseOps.i
+
+# target to preprocess a source file
+DatabaseOps.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/DatabaseOps.cpp.i
+.PHONY : DatabaseOps.cpp.i
+
+DatabaseOps.s: DatabaseOps.cpp.s
+
+.PHONY : DatabaseOps.s
+
+# target to generate assembly for a file
+DatabaseOps.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/DatabaseOps.cpp.s
+.PHONY : DatabaseOps.cpp.s
+
+Epoller.o: Epoller.cpp.o
+
+.PHONY : Epoller.o
+
+# target to build an object file
+Epoller.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/Epoller.cpp.o
+.PHONY : Epoller.cpp.o
+
+Epoller.i: Epoller.cpp.i
+
+.PHONY : Epoller.i
+
+# target to preprocess a source file
+Epoller.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/Epoller.cpp.i
+.PHONY : Epoller.cpp.i
+
+Epoller.s: Epoller.cpp.s
+
+.PHONY : Epoller.s
+
+# target to generate assembly for a file
+Epoller.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/Epoller.cpp.s
+.PHONY : Epoller.cpp.s
+
+InetAddress.o: InetAddress.cpp.o
+
+.PHONY : InetAddress.o
+
+# target to build an object file
+InetAddress.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/InetAddress.cpp.o
+.PHONY : InetAddress.cpp.o
+
+InetAddress.i: InetAddress.cpp.i
+
+.PHONY : InetAddress.i
+
+# target to preprocess a source file
+InetAddress.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/InetAddress.cpp.i
+.PHONY : InetAddress.cpp.i
+
+InetAddress.s: InetAddress.cpp.s
+
+.PHONY : InetAddress.s
+
+# target to generate assembly for a file
+InetAddress.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/InetAddress.cpp.s
+.PHONY : InetAddress.cpp.s
+
+MainReactor.o: MainReactor.cpp.o
+
+.PHONY : MainReactor.o
+
+# target to build an object file
+MainReactor.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/MainReactor.cpp.o
+.PHONY : MainReactor.cpp.o
+
+MainReactor.i: MainReactor.cpp.i
+
+.PHONY : MainReactor.i
+
+# target to preprocess a source file
+MainReactor.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/MainReactor.cpp.i
+.PHONY : MainReactor.cpp.i
+
+MainReactor.s: MainReactor.cpp.s
+
+.PHONY : MainReactor.s
+
+# target to generate assembly for a file
+MainReactor.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/MainReactor.cpp.s
+.PHONY : MainReactor.cpp.s
+
+ReactorPool.o: ReactorPool.cpp.o
+
+.PHONY : ReactorPool.o
+
+# target to build an object file
+ReactorPool.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/ReactorPool.cpp.o
+.PHONY : ReactorPool.cpp.o
+
+ReactorPool.i: ReactorPool.cpp.i
+
+.PHONY : ReactorPool.i
+
+# target to preprocess a source file
+ReactorPool.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/ReactorPool.cpp.i
+.PHONY : ReactorPool.cpp.i
+
+ReactorPool.s: ReactorPool.cpp.s
+
+.PHONY : ReactorPool.s
+
+# target to generate assembly for a file
+ReactorPool.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/ReactorPool.cpp.s
+.PHONY : ReactorPool.cpp.s
+
+Server.o: Server.cpp.o
+
+.PHONY : Server.o
+
+# target to build an object file
+Server.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/Server.cpp.o
+.PHONY : Server.cpp.o
+
+Server.i: Server.cpp.i
+
+.PHONY : Server.i
+
+# target to preprocess a source file
+Server.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/Server.cpp.i
+.PHONY : Server.cpp.i
+
+Server.s: Server.cpp.s
+
+.PHONY : Server.s
+
+# target to generate assembly for a file
+Server.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/Server.cpp.s
+.PHONY : Server.cpp.s
+
+SocketOps.o: SocketOps.cpp.o
+
+.PHONY : SocketOps.o
+
+# target to build an object file
+SocketOps.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/SocketOps.cpp.o
+.PHONY : SocketOps.cpp.o
+
+SocketOps.i: SocketOps.cpp.i
+
+.PHONY : SocketOps.i
+
+# target to preprocess a source file
+SocketOps.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/SocketOps.cpp.i
+.PHONY : SocketOps.cpp.i
+
+SocketOps.s: SocketOps.cpp.s
+
+.PHONY : SocketOps.s
+
+# target to generate assembly for a file
+SocketOps.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/SocketOps.cpp.s
+.PHONY : SocketOps.cpp.s
+
+SubReactor.o: SubReactor.cpp.o
+
+.PHONY : SubReactor.o
+
+# target to build an object file
+SubReactor.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/SubReactor.cpp.o
+.PHONY : SubReactor.cpp.o
+
+SubReactor.i: SubReactor.cpp.i
+
+.PHONY : SubReactor.i
+
+# target to preprocess a source file
+SubReactor.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/SubReactor.cpp.i
+.PHONY : SubReactor.cpp.i
+
+SubReactor.s: SubReactor.cpp.s
+
+.PHONY : SubReactor.s
+
+# target to generate assembly for a file
+SubReactor.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/SubReactor.cpp.s
+.PHONY : SubReactor.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/matthew/chatChatServer/build && $(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -117,7 +375,35 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... chatChatServer"
 	@echo "... edit_cache"
+	@echo "... DatabaseOps.o"
+	@echo "... DatabaseOps.i"
+	@echo "... DatabaseOps.s"
+	@echo "... Epoller.o"
+	@echo "... Epoller.i"
+	@echo "... Epoller.s"
+	@echo "... InetAddress.o"
+	@echo "... InetAddress.i"
+	@echo "... InetAddress.s"
+	@echo "... MainReactor.o"
+	@echo "... MainReactor.i"
+	@echo "... MainReactor.s"
+	@echo "... ReactorPool.o"
+	@echo "... ReactorPool.i"
+	@echo "... ReactorPool.s"
+	@echo "... Server.o"
+	@echo "... Server.i"
+	@echo "... Server.s"
+	@echo "... SocketOps.o"
+	@echo "... SocketOps.i"
+	@echo "... SocketOps.s"
+	@echo "... SubReactor.o"
+	@echo "... SubReactor.i"
+	@echo "... SubReactor.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

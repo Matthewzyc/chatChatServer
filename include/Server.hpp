@@ -1,18 +1,26 @@
 #ifndef _SERVER_H_
 #define _SERVER_H_
 
-#include "ThreadPool.hpp"
+#include "SocketOps.hpp"
+#include "ReactorPool.hpp"
+
+#include <sys/epoll.h>
 
 class Server
 {
 public:
-    Server() {}
-    ~Server() {}
+    Server();
+    ~Server();
 
     void setSubReactorNum(int num);
     void start();
+
 private:
-    ThreadPool _pool;
+    int _epoll_fd;
+    int _server_fd;
+    epoll_event _events[1024];
+    SocketOps _operator;
+    ReactorPool _pool;
 };
 
 #endif

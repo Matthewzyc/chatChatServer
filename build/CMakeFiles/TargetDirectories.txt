@@ -1,7 +1,5 @@
 /home/matthew/chatChatServer/build/CMakeFiles/rebuild_cache.dir
 /home/matthew/chatChatServer/build/CMakeFiles/edit_cache.dir
 /home/matthew/chatChatServer/build/src/CMakeFiles/rebuild_cache.dir
+/home/matthew/chatChatServer/build/src/CMakeFiles/chatChatServer.dir
 /home/matthew/chatChatServer/build/src/CMakeFiles/edit_cache.dir
-/home/matthew/chatChatServer/build/test/CMakeFiles/rebuild_cache.dir
-/home/matthew/chatChatServer/build/test/CMakeFiles/testDbOps.dir
-/home/matthew/chatChatServer/build/test/CMakeFiles/edit_cache.dir

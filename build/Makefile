@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testDbOps
+# Target rules for targets named chatChatServer
 
 # Build rule for target.
-testDbOps: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDbOps
-.PHONY : testDbOps
+chatChatServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chatChatServer
+.PHONY : chatChatServer
 
 # fast build rule for target.
-testDbOps/fast:
-	$(MAKE) -f test/CMakeFiles/testDbOps.dir/build.make test/CMakeFiles/testDbOps.dir/build
-.PHONY : testDbOps/fast
+chatChatServer/fast:
+	$(MAKE) -f src/CMakeFiles/chatChatServer.dir/build.make src/CMakeFiles/chatChatServer.dir/build
+.PHONY : chatChatServer/fast
 
 # Help Target
 help:
@@ -131,7 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... testDbOps"
+	@echo "... chatChatServer"
 .PHONY : help
 
 
