@@ -20,7 +20,7 @@ void Epoller::poll()
     {
         for (int i = 0; i < events_num; i++)
         {
-            // handler;
+            _eventHandler(_events[i].data.fd);
         }
     }
     else if (events_num == -1)
@@ -50,4 +50,9 @@ void Epoller::update(int operation, epoll_event &event)
     {
         perror("epoll_ctl error");
     }
+}
+
+void Epoller::setEventHandler(const std::function<void(int event_fd)> &handler)
+{
+    _eventHandler = std::move(handler);
 }
