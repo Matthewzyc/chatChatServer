@@ -13,6 +13,8 @@ string
 -
 
 ../include/Epoller.hpp
+DatabaseOps.hpp
+../include/DatabaseOps.hpp
 sys/epoll.h
 -
 vector
@@ -92,6 +94,12 @@ cstdio
 sys/eventfd.h
 -
 unistd.h
+-
+sys/timerfd.h
+-
+sys/socket.h
+-
+thread
 -
 
 /home/matthew/chatChatServer/src/InetAddress.cpp

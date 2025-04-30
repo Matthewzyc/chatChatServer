@@ -1,6 +1,10 @@
 #ifndef _EPOLLER_H_
 #define _EPOLLER_H_
 
+// for test begin
+#include "DatabaseOps.hpp"  
+// for test end
+
 #include <sys/epoll.h>
 #include <vector>
 #include <mutex>
@@ -25,6 +29,10 @@ public:
     int getEventFd() const { return _event_fd; }
     void pushNewFd(int fd);
 
+    // for test begin
+    void forTest(const int &event_fd);
+    // for test end
+
 private:
     void update(int operation, epoll_event &event);
 private:
@@ -35,6 +43,10 @@ private:
     std::mutex _mtx;
     std::function<void(const int &event_fd, const int &reactor_fd)> _distributor;
     std::function<void(const int &event_fd)> _messageHandler;
+
+    // for test begin
+    MySQL _mysql;
+    // for test end
 };
 
 #endif

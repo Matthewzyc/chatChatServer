@@ -4,21 +4,25 @@
 src/CMakeFiles/chatChatServer.dir/DatabaseOps.cpp.o: ../include/DatabaseOps.hpp
 src/CMakeFiles/chatChatServer.dir/DatabaseOps.cpp.o: ../src/DatabaseOps.cpp
 
+src/CMakeFiles/chatChatServer.dir/Epoller.cpp.o: ../include/DatabaseOps.hpp
 src/CMakeFiles/chatChatServer.dir/Epoller.cpp.o: ../include/Epoller.hpp
 src/CMakeFiles/chatChatServer.dir/Epoller.cpp.o: ../src/Epoller.cpp
 
 src/CMakeFiles/chatChatServer.dir/InetAddress.cpp.o: ../include/InetAddress.hpp
 src/CMakeFiles/chatChatServer.dir/InetAddress.cpp.o: ../src/InetAddress.cpp
 
+src/CMakeFiles/chatChatServer.dir/MainReactor.cpp.o: ../include/DatabaseOps.hpp
 src/CMakeFiles/chatChatServer.dir/MainReactor.cpp.o: ../include/Epoller.hpp
 src/CMakeFiles/chatChatServer.dir/MainReactor.cpp.o: ../include/MainReactor.hpp
 src/CMakeFiles/chatChatServer.dir/MainReactor.cpp.o: ../src/MainReactor.cpp
 
+src/CMakeFiles/chatChatServer.dir/ReactorPool.cpp.o: ../include/DatabaseOps.hpp
 src/CMakeFiles/chatChatServer.dir/ReactorPool.cpp.o: ../include/Epoller.hpp
 src/CMakeFiles/chatChatServer.dir/ReactorPool.cpp.o: ../include/ReactorPool.hpp
 src/CMakeFiles/chatChatServer.dir/ReactorPool.cpp.o: ../include/SubReactor.hpp
 src/CMakeFiles/chatChatServer.dir/ReactorPool.cpp.o: ../src/ReactorPool.cpp
 
+src/CMakeFiles/chatChatServer.dir/Server.cpp.o: ../include/DatabaseOps.hpp
 src/CMakeFiles/chatChatServer.dir/Server.cpp.o: ../include/Epoller.hpp
 src/CMakeFiles/chatChatServer.dir/Server.cpp.o: ../include/InetAddress.hpp
 src/CMakeFiles/chatChatServer.dir/Server.cpp.o: ../include/ReactorPool.hpp
@@ -31,10 +35,12 @@ src/CMakeFiles/chatChatServer.dir/SocketOps.cpp.o: ../include/InetAddress.hpp
 src/CMakeFiles/chatChatServer.dir/SocketOps.cpp.o: ../include/SocketOps.hpp
 src/CMakeFiles/chatChatServer.dir/SocketOps.cpp.o: ../src/SocketOps.cpp
 
+src/CMakeFiles/chatChatServer.dir/SubReactor.cpp.o: ../include/DatabaseOps.hpp
 src/CMakeFiles/chatChatServer.dir/SubReactor.cpp.o: ../include/Epoller.hpp
 src/CMakeFiles/chatChatServer.dir/SubReactor.cpp.o: ../include/SubReactor.hpp
 src/CMakeFiles/chatChatServer.dir/SubReactor.cpp.o: ../src/SubReactor.cpp
 
+src/CMakeFiles/chatChatServer.dir/main.cpp.o: ../include/DatabaseOps.hpp
 src/CMakeFiles/chatChatServer.dir/main.cpp.o: ../include/Epoller.hpp
 src/CMakeFiles/chatChatServer.dir/main.cpp.o: ../include/InetAddress.hpp
 src/CMakeFiles/chatChatServer.dir/main.cpp.o: ../include/ReactorPool.hpp
